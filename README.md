@@ -105,10 +105,6 @@ val_loader = DataLoader(val_tensor_ds,
 
 ## Evaluation
 
-<p align="center">
-   <img src="src/chronos_t5/results/chronos_output.png" alt="ChronosT5-Tiny predictions"  width="500">
-<p/>
-
 - The MLP and bagging model achieved high performance, with precision and recall ~99%.
 
   - The inclusion of class weights in the loss function may have reduced the selection bias within these models and may have improved the results.
