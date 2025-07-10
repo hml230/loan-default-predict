@@ -5,7 +5,7 @@
 ![Jupyter](https://img.shields.io/badge/jupyter-1.1.1+-blue.svg)
 ![NumPy](https://img.shields.io/badge/numpy-2.2.6+-lightgrey.svg)
 ![Pandas](https://img.shields.io/badge/pandas-2.3.1+-yellow.svg)
-![PySpark](https://img.shields.io/badge/pyspark-3.4.0-fixed-orange.svg)
+![PySpark](https://img.shields.io/badge/pyspark-3.4.0-orange.svg)
 ![Scikit-learn](https://img.shields.io/badge/scikit--learn-1.7.0+-brightgreen.svg)
 [![License: MIT](https://img.shields.io/badge/license-MIT-red.svg)](https://opensource.org/licenses/MIT)
 <br>
