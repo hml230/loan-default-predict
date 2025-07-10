@@ -1,0 +1,87 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+*.py[cod]
+*.so
+*.pyd
+*.pyo
+*$py.class
+build/
+dist/
+wheels/
+*.egg-info
+
+# --- Jupyter ---
+.ipynb_checkpoints
+*.nbconvert.ipynb
+
+# IPython
+profile_default/
+ipython_config.py
+
+# --- Data files ---
+data/
+cleaned_data/
+outputs/
+*.csv
+*.crc
+*.json
+
+# --- Environment files ---
+.env
+.venv
+.venv/
+env/
+venv/
+.dev_env/
+.envrc
+Pipfile.lock
+poetry.lock
+
+# --- Config and Secrets ---
+config.yaml
+config.yml
+config.json
+secrets.*
+config_local.*
+
+# --- Logs and temporary ---
+*.log
+*.tmp
+*.bak
+*.swp
+
+# --- IDEs ---
+.vscode/
+.idea/
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# PEP 582; used by e.g. github.com/David-OConnor/pyflow and github.com/pdm-project/pdm
+__pypackages__/

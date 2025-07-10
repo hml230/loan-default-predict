@@ -1,0 +1,70 @@
+====================== Multilayer Perceptron ======================
+
+Epoch 1: Train Loss = 5620.9484, Val Loss = 39.1145, Val AUC = 0.9817
+Epoch 2: Train Loss = 3856.6990, Val Loss = 8.4252, Val AUC = 0.9883
+Epoch 3: Train Loss = 3632.4942, Val Loss = 41.4103, Val AUC = 0.9887
+Epoch 4: Train Loss = 3434.8903, Val Loss = 6.1948, Val AUC = 0.9872
+Epoch 5: Train Loss = 3481.1518, Val Loss = 0.3537, Val AUC = 0.9902
+Epoch 6: Train Loss = 3417.2554, Val Loss = 0.3505, Val AUC = 0.9893
+Epoch 7: Train Loss = 3204.6936, Val Loss = 58.7069, Val AUC = 0.9884
+Epoch 8: Train Loss = 3300.7034, Val Loss = 52.8945, Val AUC = 0.9913
+Epoch 9: Train Loss = 3278.4908, Val Loss = 4.8478, Val AUC = 0.9902
+Epoch 10: Train Loss = 3202.2509, Val Loss = 0.2191, Val AUC = 0.9906
+Epoch 11: Train Loss = 3091.2594, Val Loss = 0.1628, Val AUC = 0.9907
+Epoch 12: Train Loss = 3066.2079, Val Loss = 0.1501, Val AUC = 0.9924
+Epoch 13: Train Loss = 3095.4212, Val Loss = 57.2512, Val AUC = 0.9907
+Epoch 14: Train Loss = 3035.4799, Val Loss = 0.1839, Val AUC = 0.9908
+Epoch 15: Train Loss = 3045.1990, Val Loss = 0.1430, Val AUC = 0.9910
+Epoch 16: Train Loss = 2964.7930, Val Loss = 0.1390, Val AUC = 0.9924
+Epoch 17: Train Loss = 3005.5814, Val Loss = 0.1501, Val AUC = 0.9922
+Epoch 18: Train Loss = 3002.6298, Val Loss = 0.1359, Val AUC = 0.9911
+Epoch 19: Train Loss = 3001.0034, Val Loss = 0.1411, Val AUC = 0.9912
+Epoch 20: Train Loss = 3010.8374, Val Loss = 0.1426, Val AUC = 0.9906
+
+Test Accuracy: 0.9964450142782213
+Precision: 0.9685643296964459
+Recall: 0.9656435110393107
+ROC AUC: 0.9906845145536228
+
+====================== Bagging with MLP base ======================
+
+Epoch 1: Train Loss = 4497.4992, Val Loss = 0.1757, Val AUC = 0.9922
+Epoch 2: Train Loss = 3377.5612, Val Loss = 0.1389, Val AUC = 0.9940
+Epoch 3: Train Loss = 2991.1112, Val Loss = 0.1711, Val AUC = 0.9945
+Epoch 4: Train Loss = 2700.8922, Val Loss = 0.1058, Val AUC = 0.9978
+Epoch 5: Train Loss = 2502.3364, Val Loss = 0.1399, Val AUC = 0.9978
+Epoch 6: Train Loss = 2302.9277, Val Loss = 0.0837, Val AUC = 0.9990
+Epoch 7: Train Loss = 2184.2231, Val Loss = 0.1011, Val AUC = 0.9989
+Epoch 8: Train Loss = 2057.1566, Val Loss = 0.0723, Val AUC = 0.9992
+Epoch 9: Train Loss = 1966.3565, Val Loss = 0.0850, Val AUC = 0.9983
+Epoch 10: Train Loss = 1921.3538, Val Loss = 0.0686, Val AUC = 0.9992
+Epoch 11: Train Loss = 1861.8153, Val Loss = 0.0798, Val AUC = 0.9991
+Epoch 12: Train Loss = 1780.6591, Val Loss = 0.0741, Val AUC = 0.9989
+Epoch 13: Train Loss = 1806.9979, Val Loss = 0.0713, Val AUC = 0.9993
+Epoch 14: Train Loss = 1741.1623, Val Loss = 0.0726, Val AUC = 0.9996
+Epoch 15: Train Loss = 1745.3368, Val Loss = 0.0611, Val AUC = 0.9994
+Epoch 16: Train Loss = 1667.7229, Val Loss = 0.0845, Val AUC = 0.9993
+Epoch 17: Train Loss = 1652.7819, Val Loss = 0.0780, Val AUC = 0.9994
+Epoch 18: Train Loss = 1637.0577, Val Loss = 0.0631, Val AUC = 0.9992
+Epoch 19: Train Loss = 1660.9607, Val Loss = 0.0766, Val AUC = 0.9995
+Epoch 20: Train Loss = 1526.2375, Val Loss = 0.0592, Val AUC = 0.9993
+
+Test Accuracy: 0.9971210443499039
+Precision: 0.9612761045230349
+Recall: 0.9865374259558427
+ROC AUC: 0.9987235500711122
+
+====================== CNN with 1-D Convoluitonal layers ======================
+
+poch 1: Train Loss = 19706.7165, Val Loss = 1.0276, Val AUC = 0.8549
+Epoch 2: Train Loss = 18260.2678, Val Loss = 2.1816, Val AUC = 0.9057
+Epoch 3: Train Loss = 17857.1889, Val Loss = 8.2156, Val AUC = 0.4255
+Epoch 4: Train Loss = 17765.7053, Val Loss = 1.1693, Val AUC = 0.9155
+Epoch 5: Train Loss = 17614.4623, Val Loss = 2.1985, Val AUC = 0.9276
+Epoch 6: Train Loss = 17540.1293, Val Loss = 3.7620, Val AUC = 0.9012
+Stopped early at epoch 6
+
+Test Accuracy: 0.9458884550381724
+Precision: 0.0
+Recall: 0.0
+ROC AUC: 0.9009592831143862
