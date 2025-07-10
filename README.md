@@ -11,7 +11,7 @@
 <br>
 
 <p align="center">
-  <img src="images/bus.jpg" alt="Title Image">
+  <img src="images/A-simple-neural-network-diagram-with-one-hidden-layer.png" alt="Title Image">
 </p>
 <br>
 
