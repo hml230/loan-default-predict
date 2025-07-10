@@ -29,7 +29,7 @@
 
 ## Background and Introduction
 
-This project is a port to PyTorch from a collaborated project I did with some colleagues. The task proposed selection of a loan/credit default dataset and develop classification models to predict or investigate factors that influence whether a borrower would default, recorded as `0`-non-default or `1`-default in the `default_ind` variable.
+This project is a port to PyTorch from a collaborated project I did with some colleagues. The task proposed selection of a loan/credit default dataset and develop classification models to predict or investigate factors that influence whether a borrower would default, recorded as `0` (non-default) or `1` (default) in the `default_ind` variable.
 
 I initially developed the neural networks in Tensorflow, but upon revision, I saw PyTorch offered a better interface and development experimence, so I've moved the networks to PyTorch.
 
