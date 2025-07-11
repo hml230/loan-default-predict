@@ -19,7 +19,7 @@
   <a href="#summary"> Background and Introduction </a> •
   <a href="#data"> Sourcing data </a> •
   <a href="#process"> Data Transformation and EDA</a> •
-  <a href="#eda"> Visualisation</a> •
+  <a href="#eda"> Visualisation </a> •
   <a href="#models"> Model </a> •
   <a href="#eval"> Evaluation </a> •
   <a href="#conc"> Conclusions</a>
