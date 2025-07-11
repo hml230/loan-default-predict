@@ -68,9 +68,7 @@ Overall, the dataset's quality is relatively high, no inconsistent string values
 |0 |647004 |
 |1 | 37149 |
 
-Addtionally, a design change I made that's different to the original work was to store processed data in `.parquet` format instead of `.csv`. In the project, code was written in a single notebook so we didn't have issues with replication as we used the `.toPandas()` method to convert dataset into tensors via numpy.
-
-However, I'd like to improve modularity, so I modified the pipeline.
+A design change I made that's different to the original work was to store processed data in `.parquet` format instead of `.csv`. Originally, code was written in a single Colab notebook so we didn't have issues with replication as we used the `.toPandas()` method to convert dataset into tensors via numpy.
 
 <a id = 'eda'></a>
 
