@@ -1,4 +1,4 @@
-# Risky Default Classification with PyTorch
+# Risky Borrowers Classification with PyTorch
 
 ![Python](https://img.shields.io/badge/python-3.10+-orange.svg)
 ![PyTorch](https://img.shields.io/badge/pytorch-2.7.1+-red.svg)
